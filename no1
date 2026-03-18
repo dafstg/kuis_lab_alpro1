@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    cout << "Masukkan bilangan a dan b";
+    cin >> a;
+    cin >> b;
+    float hasil = a / b;
+
+    if (a % b == 0 and hasil > 2) {
+        cout << "valid";
+    }
+    else {
+        cout << "tidak";
+    }
+}
